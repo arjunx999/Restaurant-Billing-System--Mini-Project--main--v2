@@ -1,5 +1,5 @@
 // Backend API Base URL
-const API_URL = "http://localhost:9999/auth";
+const API_URL = "https://restaurant-billing-system-mini-project.onrender.com/auth";
 
 // Redirect if user is not authenticated
 function checkAuth() {

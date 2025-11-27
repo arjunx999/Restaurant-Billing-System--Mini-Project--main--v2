@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:9999/dish";
+const API_URL = "https://restaurant-billing-system-mini-project.onrender.com/dish";
 
 // Check authentication before loading menu
 document.addEventListener("DOMContentLoaded", () => {

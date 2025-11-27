@@ -1,5 +1,5 @@
-const DISH_API = "http://localhost:9999/dish/get-all";
-const ORDER_API = "http://localhost:9999/order/place";
+const DISH_API = "https://restaurant-billing-system-mini-project.onrender.com/dish/get-all";
+const ORDER_API = "https://restaurant-billing-system-mini-project.onrender.com/order/place";
 
 let dishesList = [];      // All dishes from backend
 let billItems = [];       // Items added to bill

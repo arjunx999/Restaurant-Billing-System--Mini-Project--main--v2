@@ -1,4 +1,4 @@
-    const API_URL = "http://localhost:9999/order";
+    const API_URL = "https://restaurant-billing-system-mini-project.onrender.com/order";
 
     document.addEventListener("DOMContentLoaded", () => {
         if (!localStorage.getItem("token")) {

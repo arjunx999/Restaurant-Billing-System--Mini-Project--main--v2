@@ -1,5 +1,5 @@
-const API_DISHES = "http://localhost:9999/dish/get-all";
-const API_ORDERS = "http://localhost:9999/order/my-orders";
+const API_DISHES = "https://restaurant-billing-system-mini-project.onrender.com/dish/get-all";
+const API_ORDERS = "https://restaurant-billing-system-mini-project.onrender.com/order/my-orders";
 
 document.addEventListener("DOMContentLoaded", () => {
     if (!localStorage.getItem("token")) {
