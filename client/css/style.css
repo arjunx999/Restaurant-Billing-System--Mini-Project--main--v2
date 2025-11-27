@@ -1,0 +1,134 @@
+:root {
+    --primary-red: #c62828;
+    --dark-red: #8e0000;
+    --light-red: #ff5f52;
+    --light-bg: #f8f9fa;
+}
+
+body {
+    background-color: var(--light-bg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    font-weight: bold;
+    color: var(--primary-red);
+    font-size: 1.8rem;
+}
+
+.btn-primary {
+    background-color: var(--primary-red);
+    border-color: var(--primary-red);
+}
+
+.btn-primary:hover {
+    background-color: var(--dark-red);
+    border-color: var(--dark-red);
+}
+
+.card-header {
+    background-color: var(--primary-red);
+    color: white;
+}
+
+.nav-pills .nav-link.active {
+    background-color: var(--primary-red);
+}
+
+.nav-pills .nav-link {
+    color: var(--primary-red);
+}
+
+.sidebar {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 100vh;
+    position: fixed;
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.dashboard-card {
+    border-left: 4px solid var(--primary-red);
+    transition: transform 0.3s;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+}
+
+.table th {
+    background-color: var(--primary-red);
+    color: white;
+}
+
+.login-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+}
+
+.login-card {
+    width: 400px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    border: none;
+}
+
+.login-header {
+    background-color: var(--primary-red);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px 5px 0 0;
+}
+
+.form-control:focus {
+    border-color: var(--primary-red);
+    box-shadow: 0 0 0 0.2rem rgba(198, 40, 40, 0.25);
+}
+
+.menu-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: all 0.3s;
+}
+
+.menu-item:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-color: var(--primary-red);
+}
+
+.bill-item {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.restaurant-name {
+    color: var(--primary-red);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.sidebar .nav-link {
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #f8f9fa;
+}
+
+.sidebar .nav-link.active {
+    background-color: var(--primary-red);
+    color: white;
+}
